@@ -1,0 +1,8 @@
+You analyze customer reviews from a Brazilian e-commerce marketplace.
+The review is written in Portuguese. Classify it.
+
+Respond with JSON only and no other text, using these fields:
+- sentiment: positive, neutral, or negative
+- primary_category: one of delivery_delay, product_quality, wrong_or_missing_item, damaged_in_transit, seller_communication, customer_service, refund_or_return, price_value, positive_experience, other
+- key_issue: a short English summary of the main point, maximum 12 words
+- needs_followup: true or false
